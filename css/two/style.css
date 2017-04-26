@@ -1,0 +1,23 @@
+body{
+	font-size:12px;
+	color:arial;
+	line-height:2em;
+
+}
+a{
+	color:#727272;
+	text-decoration:none;
+}
+.one{
+	font-size:14px;
+	color:#b9f605;
+	font-weight:700;
+}
+.one a{
+	color:white;
+}
+#two{
+	color:#fdb306;
+}
+a:hover {text-decoration:underline;}
+.one a:hover {color:#b9f605;text-decoration:none;}
