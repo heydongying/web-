@@ -1,0 +1,74 @@
+body{
+	font:12px/22px "宋体";
+}
+.sousuo{
+	float:right;
+}
+.logo{
+	width:100px;
+	height:100px;
+}
+.menu{
+	width:100%;
+	height:40px;
+	background:#269F70;
+}
+.menu ul{
+	width:2000px;
+	height:20px;
+	margin:0px auto;
+	}
+.menu ul li{text-align: center;
+	font-size:16px;
+	color:#fff;
+	float: left;
+	width:220px;
+	line-height: 40px;
+	list-style: none;}
+.menu ul li a{color:#fff;text-decoration: none;}
+
+.banner{
+	width:100%;
+	height:auto;
+}
+.main{
+	width:1000px;
+	margin:0px auto;
+}
+.main .mleft{
+	width:240px;
+	height:200px;
+	float:left;
+	border:1px solid #ccc;
+}
+.main .mright{
+	width:740px;
+	height:200px;
+	float:left;
+	border:1px solid #ccc;
+	font-size: 20px;
+	text-indent: 2em;
+}
+.list{
+	width:1000px;
+	margin:0px auto;
+}
+.listimg{
+	width:230px;
+	height:300px;
+	margin:10px;
+	border:1px;
+	float:left;
+}
+.footer{
+	height:100px;
+	background:#666;
+	color:#fff;
+	text-align: center;
+	font-size: 20px;
+	margin-top:10px;
+	padding-top: 20px;
+}
+.clear{
+	clear:both;
+}
