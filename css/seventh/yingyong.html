@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>列表样式</title>
+	<style>
+		.menu ul{
+			list-style:none;
+			padding:0;
+			margin:0;
+			background:url("images/menu_bg.png");
+			width:auto;
+			background-repeat: no-repeat;
+			background-position: absolute;
+			left:1px;
+			height:50px;
+
+
+		}
+		.menu li{
+			float:left;	
+			/*display:inline-block;*/
+			margin-left:10px;
+			margin-top: 10px;
+		}
+		.menu a{
+			display:block;
+			width:120px;
+			height:35px;
+			/*border:1px solid #fff;*/
+			text-align: center;
+			line-height: 35px;
+			text-decoration:none;
+			background:url("images/line.png"); 
+			background-repeat: no-repeat;
+		}
+		.menu ul li a:hover{
+			display: block;
+			background:url("images/menu_bg1.png");
+		}
+	</style>
+</head>
+<body>
+<div class="menu">
+	<ul>
+		<li><a href="#">首页</a></li>
+		<li><a href="#">关于我们</a></li>
+		<li><a href="#">新闻动态</a></li>
+		<li><a href="#">产品中心</a></li>
+		<li><a href="#">工程案例</a></li>
+		<li><a href="#">联系我们</a></li>
+		
+	</ul>
+</div>
+</body>
+</html>
