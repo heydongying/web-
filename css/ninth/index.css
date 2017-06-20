@@ -1,0 +1,140 @@
+*{
+margin: 0;
+color:#000;
+}
+body{
+
+}
+a{
+	text-decoration: none;
+}
+.content{
+	background-color: #DFFFDF;
+	width:100%;
+	height:1050px;
+}
+.top{
+height: 110px;
+}
+.top img{
+width:320px;
+height:100px;
+margin-bottom: 10px;
+}
+.nav{
+height: 40px;
+width: 100%;
+background-color:#00A600;
+margin-top: 0px;
+position: relative;
+top:-10px;
+}
+
+.nav ul{
+/*margin: 0 auto;*/
+padding:10px 0; 
+width: 1200px;
+font-weight: bold;
+margin-left: 120px;
+}
+.nav ul li{
+display: inline-block;
+margin: 0 10px;
+color:#fff;
+}
+.nav ul li a{
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	text-decoration: none;
+	color:white;
+}
+li{
+	list-style-type: none;
+	margin-left:20px;
+}
+a:hover{
+	color: red;
+	/*background:url("images/menubg.gif"); */
+	background-repeat: no-repeat;
+}
+
+.tutu img{
+	margin-left: 120px;
+	width:950px;
+	height:200px;
+}
+.topleft{
+	margin-left: 10px;
+	margin-top: 20px;
+	width:250px;
+	height:300px;
+	background:url("images/bgindex.jpg");
+	background-size: 200px 300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	line-height: 30px;
+}
+.tutu img{
+	margin-left: 120px;
+	height:200px;
+	width:1100px;
+	margin-top: 20px;
+}
+.topleft a{
+	line-height: 30px;
+}
+.beidahuang img{
+	width:640px;
+	height:300px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.beidahuang{
+	display: inline-block;
+	float: left;
+	margin-left: 0px;
+}
+.topright{
+	width:200px;
+	height:300px;
+	background:url("images/one.jpg");
+	background-size: 200px 300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float:left;
+	margin-top: 20px;
+	margin-left: 120px;
+	line-height: 30px;
+	margin-right: 0px;
+}
+.content_left{
+	margin-left: 120px;
+}
+.tubiao img{
+	width:250px;
+	height: 200px;
+	margin-right:20px;
+	margin-top: 20px;
+}
+.tubiao h3{
+	position: relative;
+	left:-850px;
+	top:10px;
+}
+.footer{	
+	height:90px;
+	width:100%;
+	text-align: center;	
+	margin-right: 0px;
+	margin-left:0px;
+	line-height: 20px;
+	margin-top: 0px;
+	background-color: #ccc;
+	margin-top: 20px;
+}
+.footer a{
+	font-size: 20px;
+}
+

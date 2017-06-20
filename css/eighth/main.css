@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	color:#A48A71;
+}
+body{
+	background: url("../images/bodybg.gif");
+}
+.top{
+	height: 180px;
+	background:url("../images/bg.gif");
+	position: relative;
+}
+.top img{
+	margin: 20px 120px;
+}
+.nav{
+	height: 40px;
+	width: 100%;
+	background: url("../images/nav.jpg");
+	position: absolute;
+	bottom: 0px;
+}
+
+.nav ul{
+	margin: 0 auto;
+	padding:10px 0; 
+	width: 1300px;
+	
+	font-weight: bold;
+}
+.nav ul li{
+	display: inline-block;
+	margin: 0 10px;
+	color: white;
+}
+.content{
+	width: 1100px;
+	margin: 0 auto;
+}
+.zone1 .card1{
+	width: 300px;
+	height: 212px;
+	margin: 10px;
+
+	padding: 15px 12px;
+	display: inline-block;
+	background: url("../images/news_bg.png")
+}
+.zone1 .card2 .iright,.zone2 .iright{
+	float: right;
+}
+.zone1 .card2{
+	padding-top: 10px;
+	width: 400px;
+	vertical-align: top;
+	display: inline-block;
+
+}
+.zone1 .card2 li,.zone2 .card1 li,.zone2 .card2 li{
+	position: relative;
+	margin: 5px 0;
+}
+.zone1 .card2 span,.zone2 .card1 span,.zone2 .card2 span{
+	color: #999;
+	position: absolute;
+	font-size: 12px;
+	right: 0px;
+}
+.zone1 .card3{
+	vertical-align: top;
+	display: inline-block;
+	margin: 10px;
+}
+.zone1 .card3{
+	text-align: center;
+}
+.zone1 .card3 .card_content{
+	background: url("../images/board_bg.png");
+	width: 277px;
+	height: 195px;
+	padding-top: 10px;
+}
+.zone1 .card3 li{
+	margin: 10px 0;
+}
+.zone2 .right{
+	display: inline-block;
+	width: 280px;
+	text-align: center;
+	position: relative;
+
+}
+.zone2 .right .ouyang_name{
+	background: url("../images/show_bg.png");
+	padding:20px;
+	font-weight: bold;
+}
+.zone2 .left{
+	display: inline-block;
+	width: 760px;
+}
+.zone2 .right .ouyang_name span{
+	color: red;
+}
+.zone2 .right .ouyang_name .more{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color:white;
+	background-color: red;
+	width: 34px;
+	height: 18px;
+	padding: 1px;
+
+}
+.zone2 .card1{
+	display: inline-block;
+	width: 360px;
+}
+.zone2 .card2{
+	display: inline-block;
+	width: 390px;
+}
+.zone2 .card4 .img{
+	width: 650px;
+	margin: 0 auto;
+
+}
+.bottom{
+	width: 550px;
+	margin: 50px auto;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.bottom li{
+	display: inline-block;
+}
+.bottom p{
+	margin: 10px;
+}
